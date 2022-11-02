@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using PistonChain.Models.Operation;
 using PistonChain.Models.Time;
 
@@ -11,7 +12,7 @@ namespace PistonChain
             // Make Pistons
             var timeManager = new TimeManager();
             var operationManager = new OperationManager(timeManager);
-            _ = operationManager.MakePistons();
+            operationManager.MakePistons().GetAwaiter().GetResult();
         }
     }
 }
