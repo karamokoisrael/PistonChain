@@ -10,7 +10,7 @@ namespace PistonChain.Models.Machines
         public static bool IsBroken(int UsageCount, int pistonToMake = 100)
         {
             int breakProbability = 25;
-            return UsageCount != 0 && UsageCount % (pistonToMake / breakProbability) == 0;
+            return UsageCount % (pistonToMake / breakProbability) == 0;
         }
     }
 }
