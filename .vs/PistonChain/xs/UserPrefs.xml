@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{1F7DFAEB-8EAC-462B-8E31-FF3CE08629BA}|Default">
+  <MonoDevelop.Ide.ItemProperties.PistonChain PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PistonChain/Models/Machines/MachineA.cs">
+    <Files>
+      <File FileName="PistonChain/Models/Machines/MachineManager.cs" Line="16" Column="2" />
+      <File FileName="PistonChain/Models/Machines/MachineJ.cs" Line="1" Column="1" />
+      <File FileName="PistonChain/Models/Machines/IUsinageMachine.cs" Line="1" Column="1" />
+      <File FileName="PistonChain/Models/Operation/OperationManager.cs" Line="18" Column="11" />
+      <File FileName="PistonChain.UnitTests/BoxTest.cs" Line="1" Column="1" />
+      <File FileName="PistonChain.UnitTests/MachineTest.cs" Line="49" Column="47" />
+      <File FileName="PistonChain.UnitTests/OperationManagerTest.cs" Line="1" Column="1" />
+      <File FileName="PistonChain.UnitTests/TimeManagerTest.cs" Line="24" Column="1" />
+      <File FileName="PistonChain/Models/Machines/MachineA.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PistonChain" expanded="True">
+            <Node name="PistonChain" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Machines" expanded="True">
+                  <Node name="MachineA.cs" selected="True" />
+                </Node>
+                <Node name="Operation" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="PistonChain.UnitTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

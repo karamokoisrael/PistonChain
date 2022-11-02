@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PistonChain", "PistonChain\PistonChain.csproj", "{1F7DFAEB-8EAC-462B-8E31-FF3CE08629BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PistonChain.UnitTests", "PistonChain.UnitTests\PistonChain.UnitTests.csproj", "{096D0FAF-17BF-403B-BCCB-86B929909D1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F7DFAEB-8EAC-462B-8E31-FF3CE08629BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7DFAEB-8EAC-462B-8E31-FF3CE08629BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7DFAEB-8EAC-462B-8E31-FF3CE08629BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7DFAEB-8EAC-462B-8E31-FF3CE08629BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096D0FAF-17BF-403B-BCCB-86B929909D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096D0FAF-17BF-403B-BCCB-86B929909D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096D0FAF-17BF-403B-BCCB-86B929909D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096D0FAF-17BF-403B-BCCB-86B929909D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D20798C8-22C7-40BB-9881-0FFEF0A6490A}
+	EndGlobalSection
+EndGlobal
