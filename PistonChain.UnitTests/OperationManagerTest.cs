@@ -2,6 +2,7 @@
 using PistonChain.Models.Time;
 using PistonChain.Models.Machines;
 using Xunit;
+using PistonChain.Models.Operation;
 
 namespace PistonChain.UnitTests.OperationManagerTest
 {
@@ -12,16 +13,14 @@ namespace PistonChain.UnitTests.OperationManagerTest
         {
             //Arrange
             var timeManager = new TimeManager();
-
-
-            var machine = new MachineT(timeManager);
-            
+            var operationManager = new OperationManager(timeManager);
+            await operationManager.MakePiston();
 
             //Act
-            var time = await machine.Usiner();
+            var time = timeManager.GetElapsedTime();
 
             //Assert
-            Assert.Equal(time, machine.UsinageDuration);
+            Assert.True(time > 0);
         }
     }
 }

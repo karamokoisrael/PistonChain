@@ -18,6 +18,10 @@ namespace PistonChain.Models.Machines
             UsageCount = 1;
         }
 
+        public MachineT()
+        {
+        }
+
         public async Task<double> Usiner()
         {
             if (MachineManager.IsBroken(UsageCount))
