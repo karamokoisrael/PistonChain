@@ -16,11 +16,17 @@ namespace PistonChain.Models.Time
             return random.NextDouble() * (maximum - minimum) + minimum;
         }
 
+        public double WaitHandler(double time)
+        {
+            _time += time;
+            return time;
+        }
+
         public async Task<double> Wait(double time)
         {
             // Not required for this test but I think waiting should be async
-            var currentTime = await Task.Run(() => _time += time);
-            return currentTime;
+            await Task.Run(() => WaitHandler(time));
+            return _time;
         }
 
         public double GetElapsedTime()

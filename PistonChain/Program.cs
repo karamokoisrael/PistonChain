@@ -1,4 +1,6 @@
 ﻿using System;
+using PistonChain.Models.Operation;
+using PistonChain.Models.Time;
 
 namespace PistonChain
 {
@@ -6,11 +8,10 @@ namespace PistonChain
     {
         static void Main(string[] args)
         {
-
-            // Get pieces from box
-
-            // Usinage
-            Console.WriteLine("Hello World!");
+            // Make Pistons
+            var timeManager = new TimeManager();
+            var operationManager = new OperationManager(timeManager);
+            _ = operationManager.MakePistons();
         }
     }
 }

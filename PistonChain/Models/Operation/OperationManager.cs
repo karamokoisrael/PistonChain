@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using PistonChain.Models.Machines;
 using PistonChain.Models.Piston;
 using PistonChain.Models.Time;
@@ -38,6 +39,17 @@ namespace PistonChain.Models.Operation
             //assemble pieces
             await machineP.AssemblePieces();
             return _timeManager.GetElapsedTime();
-        } 
+        }
+
+        public async Task<double> MakePistons(int total=100)
+        {
+            for (int i = 0; i < total; i++)
+            {
+                await MakePiston();
+            }
+            var elapsedTime = _timeManager.GetElapsedTime();
+            Console.WriteLine($"Elapsed time: {elapsedTime} minutes");
+            return elapsedTime;
+        }
     }
 }
