@@ -1,17 +1,6 @@
 ﻿<Properties StartupConfiguration="{1F7DFAEB-8EAC-462B-8E31-FF3CE08629BA}|Default">
   <MonoDevelop.Ide.ItemProperties.PistonChain PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PistonChain/Models/Piston/Piston.cs">
-    <Files>
-      <File FileName="PistonChain/Models/Machines/MachineManager.cs" Line="16" Column="2" />
-      <File FileName="PistonChain/Models/Machines/MachineJ.cs" Line="1" Column="1" />
-      <File FileName="PistonChain/Models/Machines/IUsinageMachine.cs" Line="9" Column="37" />
-      <File FileName="PistonChain.UnitTests/BoxTest.cs" Line="18" Column="26" />
-      <File FileName="PistonChain.UnitTests/MachineTest.cs" Line="60" Column="13" />
-      <File FileName="PistonChain.UnitTests/OperationManagerTest.cs" Line="17" Column="35" />
-      <File FileName="PistonChain/Models/Operation/OperationManager.cs" Line="24" Column="41" />
-      <File FileName="PistonChain/Models/Machines/MachineT.cs" Line="1" Column="1" />
-      <File FileName="PistonChain/Models/Piston/Piston.cs" Line="4" Column="5" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -19,10 +8,11 @@
             <Node name="PistonChain" expanded="True">
               <Node name="Models" expanded="True">
                 <Node name="Machines" expanded="True" />
-                <Node name="Operation" expanded="True" />
-                <Node name="Piston" expanded="True">
-                  <Node name="Piston.cs" selected="True" />
+                <Node name="Operation" expanded="True">
+                  <Node name="OperationManager.cs" selected="True" />
                 </Node>
+                <Node name="Piston" expanded="True" />
+                <Node name="Time" expanded="True" />
               </Node>
             </Node>
             <Node name="PistonChain.UnitTests" expanded="True" />

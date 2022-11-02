@@ -14,10 +14,27 @@ namespace PistonChain.UnitTests.OperationManagerTest
             //Arrange
             var timeManager = new TimeManager();
             var operationManager = new OperationManager(timeManager);
-            await operationManager.MakePiston();
+
 
             //Act
+            await operationManager.MakePiston();
             var time = timeManager.GetElapsedTime();
+
+            //Assert
+            Assert.True(time > 0);
+        }
+
+
+        [Fact]
+        public async void MakePistons_ReturnsElapsedTimeGreaterThanZero()
+        {
+            //Arrange
+            var timeManager = new TimeManager();
+            var operationManager = new OperationManager(timeManager);
+
+
+            //Act
+            var time = await operationManager.MakePistons();
 
             //Assert
             Assert.True(time > 0);
